@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Story Feature</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Story List -->
+  <div class="story-container">
+    <div class="add-story" id="addStoryBtn">+</div>
+    <div class="stories" id="stories"></div>
+  </div>
+
+  <!-- Hidden File Input -->
+  <input type="file" id="fileInput" accept="image/*" hidden />
+
+  <!-- Story Viewer Modal -->
+  <div class="viewer hidden" id="viewer">
+    <div class="progress-container" id="progressContainer"></div>
+    <img id="viewerImage" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
